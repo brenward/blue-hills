@@ -1,0 +1,20 @@
+#top-spacer{
+    min-height: 50px;
+    width: 100%;
+    background-color: #9bc3ca;
+}
+
+#bottom-spacer{
+    min-height: 150px;
+    width: 100%;
+    background-color:#9bc3ca;
+    margin-bottom:30px;
+    color: white;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 63px
+}
+
+nav{
+    margin-bottom: 0px;
+}

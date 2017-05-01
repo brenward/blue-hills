@@ -15,7 +15,7 @@ const forceSSL = function() {
   }
 }
 
-app.use(forceSSL());
+//app.use(forceSSL());
 
 const path = require('path');
 // Run the app by serving the static files
