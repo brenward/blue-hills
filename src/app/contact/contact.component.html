@@ -1,6 +1,19 @@
 <div class="container">
   <div class="row">
     <div class="col col-md-6 col-sm-12 col-xs-12">
+      <h2>Area Covered</h2>
+      <p>
+        We serve anywhere within the Greater Dublin Area and the surrounding counties. Our contact details are shown below. If you wish to make an enquiry or request a free quote, please do not hesitate to get in touch.
+      </p>
+      <p><strong>Address: </strong>Blanchardstown, Dublin 15</p>
+      <p><strong>Phone Number: </strong>+353 1 123 4567</p>
+      <p><strong>Email: </strong>test@test.com</p>
+
+      <sebm-google-map [latitude]="lat" [longitude]="lng">
+        <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+      </sebm-google-map>
+    </div>
+    <div class="col col-md-6 col-sm-12 col-xs-12">
       <form>
         <div class="row">
           <div class="col col-xs-12">
@@ -32,14 +45,6 @@
         <br>
         <button class="btn btn-primary">Submit</button>
       </form>
-    </div>
-    <div class="col col-md-6 col-sm-12 col-xs-12">
-      <h2>Area Covered</h2>
-      <p>
-        We serve anywhere within the Greater Dublin Area and the surrounding counties. Our contact details are shown below. If you wish to make an enquiry or request a free quote, please do not hesitate to get in touch.
-      </p>
-      <p><strong>Address: </strong>Blanchardstown, Dublin 15</p>
-      <p><strong>Phone Number: </strong>+353 1 123 4567</p>
     </div>  
   </div>
 </div>

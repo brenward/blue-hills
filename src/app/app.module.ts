@@ -11,6 +11,9 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 
+import {AgmCoreModule} from 'angular2-google-maps/core';
+import { environment } from '../environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,8 @@ import { ProjectsComponent } from './projects/projects.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({apiKey:environment.GOOGLE_API_KEY})
   ],
   providers: [],
   bootstrap: [AppComponent]
